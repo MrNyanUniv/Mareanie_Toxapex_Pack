@@ -1,0 +1,10 @@
+{
+   "mareanie_cry": {
+	   "subtitle": "Mareanie cries",
+       "sounds": ["cobblemon:pokemon/mareanie/mareanie_cry"]
+   },
+   "toxapex_cry": {
+	   "subtitle": "Toxapex cries",
+       "sounds": ["cobblemon:pokemon/toxapex/toxapex_cry"]
+   }
+}

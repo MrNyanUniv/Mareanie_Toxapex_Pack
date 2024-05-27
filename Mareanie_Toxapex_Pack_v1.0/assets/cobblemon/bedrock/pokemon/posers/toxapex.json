@@ -1,0 +1,118 @@
+{
+ "head": "head",
+ "portraitScale": 3,
+ "portraitTranslation": [ 0, -2.5, 0 ],
+ "profileScale": 1,
+ "profileTranslation": [ 0, 0, 0 ],
+ "faint": "bedrock(toxapex, faint)",
+ "cry": "bedrock(toxapex, cry)",
+ "poses": {
+    "default": {
+		"poseName": "default",
+		"transformTicks": 10,
+		"poseTypes": [
+		"NONE",
+		"PORTRAIT",
+		"PROFILE"
+		],
+		"animations": [
+		"bedrock(toxapex, ground_idle)"
+		]
+	},
+	"standing": {
+		"poseName": "standing",
+		"transformTicks": 10,
+		"poseTypes": [
+		"STAND"
+		],
+		"animations": [
+		"look",
+		"bedrock(toxapex, ground_idle)"
+		],
+		"quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 16,
+          "animations": [
+            "bedrock(toxapex, blink)"
+          ]
+        }
+      ]
+	},
+   "walking": {
+     "poseName": "walking",
+     "transformTicks": 10,
+     "poseTypes": [
+	  "WALK"
+	 ],
+     "animations": [
+	  "bedrock(toxapex, ground_walk)"
+	 ],
+	 "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 16,
+          "animations": [
+            "bedrock(toxapex, blink)"
+          ]
+        }
+      ]
+   },
+   "sleeping": {
+	   "poseName": "sleeping",
+	   "transformTicks": 10,
+	   "poseTypes": [ 
+	    "SLEEP"
+	   ],
+	   "animations": [
+	    "bedrock(toxapex, sleep)"
+		]
+   },
+   "swimming": {
+	   "poseName": "swimming",
+	   "transformTicks": 10,
+	   "poseTypes": [ 
+	   "SWIM"
+	   ],
+	   "animations": [ 
+	   "bedrock(toxapex, water_swim)" 
+	   ],
+	   "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 16,
+          "animations": [
+            "bedrock(toxapex, blink)"
+          ]
+        }
+      ]
+   },
+   "floating": {
+	   "poseName": "floating",
+	   "transformTicks": 10,
+	   "poseTypes": [ 
+	   "FLOAT"
+	   ],
+	   "animations": [ 
+	   "bedrock(toxapex, water_idle)" 
+	   ],
+	   "quirks": [
+        {
+          "name": "blink",
+          "loopTimes": 1,
+          "minSecondsBetweenOccurrences": 8,
+          "maxSecondsBetweenOccurrences": 16,
+          "animations": [
+            "bedrock(toxapex, blink)"
+          ]
+        }
+      ]
+   }
+ }
+}
